@@ -1,0 +1,19 @@
+# The address and port of the zeromq connection that powerpool will connect to
+#zmq_pull:
+#    port: 5557
+#    address: 127.0.0.1
+
+# The name of the process as shown in ps and top
+#procname: ppreporter
+
+# Configures standard python loggers. type must be a logging handler provided
+# by python std lib. Future support for custom loggers would be great
+#loggers:
+#    - type: StreamHandler
+#      level: DEBUG
+
+# number of gevnet queue workers
+#workers: 5
+
+# time we allow for workers to shutdown before terminating them
+#term_timeout: 5

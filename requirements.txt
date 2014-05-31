@@ -1,2 +1,4 @@
 gevent
 pyzmq
+setproctitle
+pyyaml
